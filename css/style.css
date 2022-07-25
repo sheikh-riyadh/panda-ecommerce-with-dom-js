@@ -1,0 +1,28 @@
+.panda-primary-color {
+    background-color: #fceae8;
+    ;
+}
+
+.panda-button-color {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+
+.panda-price {
+    color: #FF136F;
+}
+
+.cat1 {
+    background-color: orange;
+}
+
+.cat2 {
+    background-color: orchid;
+}
+
+.cat3 {
+    background-color: blue;
+}
