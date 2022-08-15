@@ -7,3 +7,9 @@ const backpack = document.getElementById('backpack');
 backpack.style.backgroundColor = 'tomato';
 backpack.style.padding = '20px';
 backpack.style.borderRadius = '10px'
+
+
+const cards = document.querySelectorAll('.card');
+for (const card of cards) {
+    card.style.borderRadius = '30px';
+}
