@@ -18,3 +18,14 @@ const btns = document.getElementById('btn').addEventListener('click', function (
     console.log("button was clicked");
 })
 
+
+const inputField = document.getElementById('exampleInputEmail1').addEventListener('keyup', function (event) {
+    const submitBtn = document.getElementById('submit-btn');
+    if (event.target.value === "email") {
+        submitBtn.removeAttribute('disabled', true);
+    }
+    else {
+        submitBtn.setAttribute('disabled', true);
+    }
+})
+
