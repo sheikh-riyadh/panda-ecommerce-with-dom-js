@@ -13,3 +13,8 @@ const cards = document.querySelectorAll('.card');
 for (const card of cards) {
     card.style.borderRadius = '30px';
 }
+
+const btns = document.getElementById('btn').addEventListener('click', function () {
+    console.log("button was clicked");
+})
+
