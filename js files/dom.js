@@ -29,3 +29,16 @@ const inputField = document.getElementById('exampleInputEmail1').addEventListene
     }
 })
 
+
+
+const subscribe = document.querySelector('#subscribe').addEventListener('dblclick', function () {
+    const bgChange = document.getElementById('subscribe');
+    bgChange.style.backgroundColor = 'tomato'
+})
+
+const buttons = document.getElementsByClassName('buy-now');
+for (const button of buttons) {
+    button.addEventListener('click', function (event) {
+        event.target.style = "display: none"
+    })
+}
